@@ -1,6 +1,5 @@
 require('dotenv').config();
 const jwt = require('jsonwebtoken');
-require('dotenv').config();
 const NotValidData = require('../errors/not-valid-data');
 
 const { JWT_SECRET } = process.env;
